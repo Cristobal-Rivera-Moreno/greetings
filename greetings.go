@@ -1,16 +1,3 @@
-# greetings in go 
-go course.
-## Instalación
-Ejecuta el siguiente comando para instalar el paquete:
-```bash
-go get -u github.com/cristobal-rivera-moreno/greetings
-```
-
-## Uso
-Here there is an example how to use the package in your code.
-
-```go
-
 package greetings
 
 import (
@@ -45,5 +32,3 @@ func RandomFormat() string {
 	}
 	return formats[rand.Intn(len(formats))]
 }
-
-```
